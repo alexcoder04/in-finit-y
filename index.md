@@ -4,6 +4,18 @@
 I enjoy configuring and tweaking my setup so much, that it's already like I'm maintaining an own Linux distro.
 Here is the documentation of everything that goes into it.
 
+## Dotfiles
+
+The dotfiles contain all the configuration files for the programs.
+
+&#8594; [dotfiles](./dotfiles.html)
+
+## Scripts
+
+Scripts provide simple functionality to the desktop and background tasks.
+
+&#8594; [scripts](./scripts.html)
+
 ## List of projects
 
  - [dotfiles](https://github.com/alexcoder04/dotfiles) - all the configs
