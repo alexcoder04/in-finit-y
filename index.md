@@ -6,22 +6,26 @@ Here is the documentation of everything that goes into it.
 
 ## Dotfiles
 
-The dotfiles contain all the configuration files for the programs.
-
-&#8594; [dotfiles](./dotfiles.html)
+The [dotfiles](./dotfiles.html) contain all the configuration files for the programs.
 
 ## Scripts
 
-Scripts provide simple functionality to the desktop and background tasks.
+[Shell scripts](./scripts.html) provide simple functionality to the desktop and background tasks
+and glue everything in my system together.
 
-&#8594; [scripts](./scripts.html)
+## Cache Manager
 
-## List of projects
+The [cache manager](https://github.com/alexcoder04/cache-mgr) is an OpenRC service
+to mount a ramdisk on start and create directories for different programs to save
+their cache in, as well as loading the firefox profile into this ramdisk.
 
- - [dotfiles](https://github.com/alexcoder04/dotfiles) - all the configs
- - [scripts](https://github.com/alexcoder04/scripts) - shell scripts that glue everything together
+## List of repositories
+
+ - [dotfiles](https://github.com/alexcoder04/dotfiles)
+ - [scripts](https://github.com/alexcoder04/scripts)
+ - [cache-mgr](https://github.com/alexcoder04/cache-mgr)
  - [shclrz](https://github.com/alexcoder04/shclrz) - simplifing colored output in shell scripts
  - [lightline fork](https://github.com/alexcoder04/lightline.vim) with custom themes
- - [cache-mgr](https://github.com/alexcoder04/cache-mgr) - loading and unloading cache into RAM
  - [sharebox](https://github.com/alexcoder04/sharebox) - file sharing system (*in progress*)
  - [raspi-setup](https://github.com/alexcoder04/raspi-setup) - Raspberry Pi setup script
+
