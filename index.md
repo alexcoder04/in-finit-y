@@ -1,7 +1,8 @@
 
 # Welcome to in-finit-y
 
-I enjoy configuring and tweaking my setup so much, that it's already like I'm maintaining an own Linux distro.
+I enjoy configuring and tweaking my system so much, that it's already like I'm
+maintaining an own Linux distro.
 Here is the documentation of everything that goes into it.
 
 ## Dotfiles
@@ -10,8 +11,13 @@ The [dotfiles](./dotfiles.html) contain all the configuration files for the prog
 
 ## Scripts
 
-[Shell scripts](./scripts.html) provide simple functionality to the desktop and background tasks
-and glue everything in my system together.
+[Shell scripts](./scripts.html) provide simple functionality to the desktop
+and background tasks and glue everything in my system together.
+
+## Kherson
+
+[Kherson](https://github.com/alexcoder04/kherson) is my own status line generator
+for i3 and sway written in Go and configured in Yaml.
 
 ## Cache Manager
 
@@ -23,6 +29,7 @@ their cache in, as well as loading the firefox profile into this ramdisk.
 
  - [dotfiles](https://github.com/alexcoder04/dotfiles)
  - [scripts](https://github.com/alexcoder04/scripts)
+ - [kherson](https://github.com/alexcoder04/kherson)
  - [cache-mgr](https://github.com/alexcoder04/cache-mgr)
  - [shclrz](https://github.com/alexcoder04/shclrz) - simplifing colored output in shell scripts
  - [lightline fork](https://github.com/alexcoder04/lightline.vim) with custom themes
