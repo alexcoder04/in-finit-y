@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="{{ '/assets/css/index.css' | relative_url }}" />
+  </head>
+  <body>
+    <div class="wrapper">
+        <div id="title">
+          <h1>{{ site.title | default: site.github.repository_name }}</h1>
+          <p>{{ site.description | default: site.github.project_tagline }}</p>
+          <hr>
+        </div>
+
+        {{ content }}
+
+    </div>
+  </body>
+</html>

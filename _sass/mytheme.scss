@@ -1,0 +1,44 @@
+body,
+html {
+  background-color: #282828;
+  font-family: "Courier New", Courier, monospace;
+  color: #ebdbb2;
+}
+
+p {
+  text-align: justify;
+}
+
+ul {
+  list-style-type: symbols(cyclic "▶");
+}
+
+a {
+  text-decoration: none;
+  color: #d79921;
+}
+
+h1,
+h2,
+h3 {
+  color: white !important;
+}
+
+code {
+  font-family: monospace;
+  color: white;
+  background-color: #6f6357;
+  color: white;
+  padding: 0.3em;
+}
+
+.wrapper {
+  max-width: 650px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0 20px;
+}
+
+#title > h1, #title > p {
+  text-align: center !important;
+}
