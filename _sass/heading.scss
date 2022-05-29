@@ -1,5 +1,9 @@
+@import "colors.scss";
 
-#title > h1, #title > p {
-  text-align: center !important;
-  color: #689d6a !important;
+#title {
+  h1,
+  p {
+    text-align: center !important;
+    color: $color_cyan !important;
+  }
 }

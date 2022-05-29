@@ -1,10 +1,11 @@
 @import "heading.scss";
+@import "colors.scss";
 
 body,
 html {
-  background-color: #282828;
+  background-color: $color_black;
   font-family: "Courier New", Courier, monospace;
-  color: #ebdbb2;
+  color: $color_white;
 }
 
 p {
@@ -17,7 +18,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: #d79921;
+  color: $color_yellow;
 }
 
 h1,
@@ -29,7 +30,7 @@ h3 {
 code {
   font-family: monospace;
   color: white;
-  background-color: #6f6357;
+  background-color: $color_light_grey;
   color: white;
   padding: 0.1em 0.3em 0.1em 0.3em;
 }
