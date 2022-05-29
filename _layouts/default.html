@@ -5,6 +5,17 @@
     <link rel="stylesheet" href="{{ '/assets/css/index.css' | relative_url }}" />
   </head>
   <body>
+
+    <div class="sidebar">
+        <ul>
+            {% for i in site.data.pages.list %}
+            <li>
+                <a href="{{ i.url | relative_url }}">{{ i.title }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+
     <div class="wrapper">
         <div id="title">
           <h1>

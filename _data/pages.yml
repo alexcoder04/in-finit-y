@@ -1,0 +1,7 @@
+list:
+ - title: Home
+   url: /index.html
+ - title: Dotfiles
+   url: /dotfiles.html
+ - title: Scripts
+   url: /scripts.html
