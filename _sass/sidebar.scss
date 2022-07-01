@@ -8,22 +8,7 @@
   padding-left: 2em;
 
   @media screen and (orientation: portait) {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    width: 100vw;
-    height: 20px;
+    position: relative;
   }
 }
 
-.sidebar {
-  ul {
-    li {
-      @media screen and (orientation: portait) {
-        display: block;
-        font-size: large;
-      }
-    }
-  }
-}
