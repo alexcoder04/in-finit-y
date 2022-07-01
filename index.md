@@ -18,9 +18,9 @@ and background tasks and glue everything in my system together.
 
 [Kherson](https://github.com/alexcoder04/kherson) is my own status line generator
 for i3 and sway written in Go and configured in Yaml. Information on
-[installation](https://github.com/alexcoder04/kherson/wiki/Installation) and
-[configuration](https://github.com/alexcoder04/kherson/wiki/Configuration) can
-be found in the [wiki](https://github.com/alexcoder04/kherson/wiki).
+[installation](https://alexcoder04.github.io/kherson/Installation.html) and
+[configuration](https://alexcoder04.github.io/kherson/Configuration.html) can
+be found on the [project website](https://alexcoder04.github.io/kherson/).
 
 ## Cache Manager
 
@@ -32,7 +32,7 @@ their cache in, as well as loading the firefox profile into this ramdisk.
 
  - [dotfiles](https://github.com/alexcoder04/dotfiles)
  - [scripts](https://github.com/alexcoder04/scripts)
- - [kherson](https://github.com/alexcoder04/kherson), [wiki](https://github.com/alexcoder04/kherson/wiki)
+ - [kherson](https://github.com/alexcoder04/kherson), [website](https://alexcoder04.github.io/kherson/)
  - [cache-mgr](https://github.com/alexcoder04/cache-mgr)
  - [shclrz](https://github.com/alexcoder04/shclrz) - simplifing colored output in shell scripts
  - [lightline fork](https://github.com/alexcoder04/lightline.vim) with custom themes

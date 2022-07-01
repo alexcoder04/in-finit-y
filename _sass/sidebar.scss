@@ -9,6 +9,9 @@
 
   @media screen and (orientation: portait) {
     position: static;
+    width: auto;
+    max-width: 100vw;
+    padding: 10px;
   }
 }
 
