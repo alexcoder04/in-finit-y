@@ -42,7 +42,7 @@ code {
   position: relative;
   padding: 0 20px;
 
-  @media screen and (max-width: 768px){
+  @media screen and (orientation: portrait){
       margin: 0;
       position: relative;
       padding: 20px 0 0 0;
