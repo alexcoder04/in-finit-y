@@ -17,8 +17,13 @@
   }
 }
 
-.sidebar > ul > li {
-    @media screen and (orientation: portait) {
+.sidebar {
+  ul {
+    li {
+      @media screen and (orientation: portait) {
         display: block;
+        font-size: large;
+      }
     }
+  }
 }
