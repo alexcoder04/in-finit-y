@@ -16,10 +16,6 @@ different settings on different machines; those settings are defined inside the
 `<hostname>.prefs2` files. More info about the system can be found in the
 dotfiles repo itself.
 
-## Key programs in my dotfiles
-
- - zsh
- - lf
- - i3/sway
- - nvim
+The dotfiles require my [scripts](./scripts.html) to be installed, because some
+of the `install` scripts require so-called `libsh` library.
 

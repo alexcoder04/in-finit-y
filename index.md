@@ -3,7 +3,19 @@
 
 I enjoy configuring and tweaking my system so much, that it's already like I'm
 maintaining an own Linux distro.
-Here is the documentation of everything that goes into it.
+Here is an overview of everything that goes into it.
+
+## Projects I build upon
+
+These programs play a key role in my setup; without them, building everything
+else would not be possible.
+
+ - [Artix Linux](https://artixlinux.org/)
+ - [Neovim](https://neovim.io/)
+ - [i3](https://i3wm.org/) and [Sway](https://swaywm.org/)
+ - [LF](https://github.com/gokcehan/lf)
+ - [Zsh](https://www.zsh.org/)
+ - [Alacritty](https://alacritty.org/) and [Foot](https://codeberg.org/dnkl/foot)
 
 ## Dotfiles
 
@@ -30,12 +42,18 @@ their cache in, as well as loading the firefox profile into this ramdisk.
 
 ## List of repositories
 
+These are all my repositories that make a part of my desktop setup. For a
+complete list of projects I created/maintain, see my
+[personal website](https://alexcoder04.github.io/).
+
  - [dotfiles](https://github.com/alexcoder04/dotfiles)
  - [scripts](https://github.com/alexcoder04/scripts)
  - [kherson](https://github.com/alexcoder04/kherson), [website](https://alexcoder04.github.io/kherson/)
  - [cache-mgr](https://github.com/alexcoder04/cache-mgr)
- - [shclrz](https://github.com/alexcoder04/shclrz) - simplifing colored output in shell scripts
- - [lightline fork](https://github.com/alexcoder04/lightline.vim) with custom themes
+ - [shclrz](https://github.com/alexcoder04/shclrz) - simplifing colored output in shell scripts (*deprecated*)
+ - [golored](https://github.com/alexcoder04/golored) - `shclrz` rewrite in Go
  - [sharebox](https://github.com/alexcoder04/sharebox) - file sharing system (*in progress*)
  - [raspi-setup](https://github.com/alexcoder04/raspi-setup) - Raspberry Pi setup script
+ - [frei](https://github.com/alexcoder04/frei) - `free` rewrite in Go with colored charts
+ - [kangaroo](https://github.com/alexcoder04/kangaroo) - runs a command if signaled or in periodic time intervals
 

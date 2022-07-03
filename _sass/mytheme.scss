@@ -22,6 +22,10 @@ a {
   color: $color_yellow;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 h1,
 h2,
 h3 {
